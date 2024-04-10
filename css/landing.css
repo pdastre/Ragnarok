@@ -1,0 +1,13 @@
+.landing {
+    color: var(--texto);
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmax;
+    width: 100%;
+}
+
+.landing__corpo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
