@@ -3,43 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <META NAME="viewport" CONTENT="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="style.css">
     <title>Ragnarok Online</title>
 </head>
 
 <body>
-    <main>
-        <section class="landing parallax parallax-1">
-            <nav class="landing__nav">
-                <ul class="nav__lista">
-                    <li><a href="#"></a>Logo</li>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>Suporte</li>
-                    <li><a href="#"></a>Compras</li>
-                    <li><a href="#"></a>Registro</li>
-                    <li><a href="#"></a>Entrar</li>
+    <main class="landing">
+        <nav class="landing__nav">
+            <ul class="nav__lista">
+                <li><a href="#" class="lista__item">Logo</a></li>
+                <li><a href="#" class="lista__item">Home</a></li>
+                <li><a href="#" class="lista__item">Suporte</a></li>
+                <li><a href="#" class="lista__item">Compras</a></li>
+                <li><a href="#" class="lista__item">Registrar</a></li>
+                <li><a href="#" class="lista__botao">Entrar<img src="/img/Arrow.svg" class="botao__seta"></a></li>
+            </ul>
+        </nav>
+        <div class="landing__corpo">
+            <div class="landing__corpo-texto">
+                <img src="/img/logo.svg" class="logo__rag">
+                <h1 class="landing__corpo--titulo">Desde 2004 trazendo aventuras para você!</h1>
+                <p class="landing__corpo--texto">Descubra seu caminho por Rune Midgar, explorando o melhor MMORPG.
+                    Seja
+                    batalhando contra
+                    monstros, ou se juntando aos amigos no Clã, Ragnarok Online tem um estilo de jogo para você
+                </p>
+                <button class="download">Download</button>
+            </div>
+            <div class="landing__corpo-redes">
+                <h2 class="rede__siga">Siga nossas Redes!</h2>
+                <ul class="redes__listas">
+                    <li class="redes__logo"><img src="img/facebook 1.svg"></li>
+                    <li class="redes__logo"><img src="img/instagram 1.svg"></li>
+                    <li class="redes__logo"><img src="img/discordia 1.svg"></li>
+
                 </ul>
-                <div class="landing__corpo">
-                    <div class="landing__corpo-texto">
-                        <img src="img/logo.svg">
-                        <h1>Desde 2004 trazendo aventuras para você!</h1>
-                        <p>Descubra seu caminho por Rune Midgar, explorando o melhor MMORPG. Seja batalhando contra
-                            monstros, ou se juntando aos amigos no Clã, Ragnarok Online tem um estilo de jogo para você
-                        </p>
-                        <button class="download">Download</button>
-                    </div>
-                    <div class="landing__corpo-redes">
-                        <ul class="redes__listas">
-                            <li class="redes__logo"><img src="img/facebook 1.svg"></li>
-                            <li class="redes__logo"><img src="img/instagram 1.svg"></li>
-                            <li class="redes__logo"><img src="img/discordia 1.svg"></li>
-                            <h2>Siga nossas Redes!</h2>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
+            </div>
+        </div>
     </main>
 
 </body>

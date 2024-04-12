@@ -1,13 +1,130 @@
 .landing {
     color: var(--texto);
-    background-image: url(/img/fundo.png);
-    background-repeat: no-repeat;
+    background: url(/img/fundo.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    height: 100vmax;
-    width: 100%;
+    /* background-size: 100%; */
+    height: 100vh;
+    width: auto;
+    overflow: auto;
 }
+
+/* Nav bar */
+.landing__nav {
+    border: solid 1px transparent;
+    border-radius: 36px;
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(10px);
+    border-color: rgba(255, 255, 255, 0.466);
+    margin: 1em 3em;
+    padding: 1em 0;
+    padding-left: 1em;
+}
+
+.lista__item {
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    font-size: 1.5em;
+    color: var(--texto);
+}
+
+.nav__lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 1em;
+
+
+}
+
+.lista__botao {
+    background-color: var(--texto);
+    padding: 0.3em 1em;
+    border-radius: 28px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: var(--texto-secundario);
+    font-family: var(--fonte-texto);
+}
+
+.botao__seta {
+    margin-left: 0.8em;
+}
+
+/* Texto */
 
 .landing__corpo {
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.logo__rag {
+    width: 45%;
+    height: 45%;
+    margin-left: 10%;
+    margin-top: 1em;
+}
+
+
+.landing__corpo--titulo {
+    font-size: 3em;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    margin-left: 10%;
+
+    margin-bottom: 0.5em;
+    text-shadow: 1px 2px 8px black;
+}
+
+.landing__corpo--texto {
+    margin: auto;
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    margin-left: 15%;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.download {
+    align-self: center;
+    border: solid transparent;
+    background: var(--gradiente);
+    background-clip: padding-box;
+    color: var(--texto);
+    font-size: 2em;
+    border-radius: 80px;
+    font-family: var(--fonte-texto);
+    margin-top: 0.5em;
+    margin-left: 10%;
+    padding: 0.2em 1em;
+    font-weight: 500;
+}
+
+.download:hover {
+    transform: scale(1.05);
+}
+
+/* Redes sociais */
+
+.landing__corpo-redes {
+    margin-top: 25%;
+    justify-content: bottom;
+
+}
+
+.rede__siga {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-family: var(--fonte-titulo);
+    font-size: 1.6em;
+    margin-left: 92%;
+
+}
+
+.redes__logo {
+    vertical-align: middle;
+    padding-top: 0.5em;
+    margin-left: 88%;
 }
