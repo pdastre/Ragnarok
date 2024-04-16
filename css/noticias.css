@@ -1,5 +1,5 @@
 .noticias {
-    background-image: url(/img/backnoticias.png);
+    background-image: url(../img/backnoticias.png);
     background-size: cover;
     height: 100vh;
     width: auto;
@@ -73,19 +73,19 @@ input:checked+label {
 }
 
 .card[for='s1'] {
-    background-image: url(/img/noticias1.png);
+    background-image: url(../img/noticias1.png);
 }
 
 .card[for='s2'] {
-    background-image: url(/img/noticias4.png);
+    background-image: url(../img/noticias4.png);
 }
 
 .card[for='s3'] {
-    background-image: url(/img/noticias3.png);
+    background-image: url(../img/noticias3.png);
 }
 
 .card[for='s4'] {
-    background-image: url(/img/noticias2.png);
+    background-image: url(../img/noticias2.png);
 }
 
 .card__texto {
