@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <META NAME="viewport" CONTENT="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Ragnarok Online</title>
 </head>
 
 <body>
-    <main class="landing">
+    <section class="landing">
         <nav class="landing__nav">
             <ul class="nav__lista">
                 <li><a href="#" class="lista__item">Logo</a></li>
@@ -17,14 +17,16 @@
                 <li><a href="#" class="lista__item">Suporte</a></li>
                 <li><a href="#" class="lista__item">Compras</a></li>
                 <li><a href="#" class="lista__item">Registrar</a></li>
-                <li><a href="#" class="lista__botao">Entrar<img src="img/Arrow.svg" class="botao__seta"></a></li>
+                <li><a href="#" class="lista__botao">Entrar<img src="/img/Arrow.svg" class="botao__seta"></a>
+                </li>
             </ul>
         </nav>
         <div class="landing__corpo">
             <div class="landing__corpo-texto">
-                <img src="img/logo.svg" class="logo__rag">
+                <img src="/img/logo.svg" class="logo__rag">
                 <h1 class="landing__corpo--titulo">Desde 2004 trazendo aventuras para você!</h1>
-                <p class="landing__corpo--texto">Descubra seu caminho por Rune Midgar, explorando o melhor MMORPG.
+                <p class="landing__corpo--texto">Descubra seu caminho por Rune Midgar, explorando o melhor
+                    MMORPG.
                     Seja
                     batalhando contra
                     monstros, ou se juntando aos amigos no Clã, Ragnarok Online tem um estilo de jogo para você
@@ -41,8 +43,67 @@
                 </ul>
             </div>
         </div>
-    </main>
+    </section>
+
+    <section class="noticias">
+        <h1 class="noticias__titulo">Notícias</h1>
+        <div class="noticias__cards">
+            <div class="container">
+                <input type="radio" name="slider" id="s1" checked>
+                <label for="s1" class="card">
+                    <!--  <div class="row">
+                        <div class="icon">1</div>
+                    </div> -->
+                    <div class="card__texto">
+                        <a href="#">
+                            <p class="texto">FIQUE POR DENTRO DA PRIMEIRA GRANDE UPDATE DO BRO EM 2024</p>
+                        </a>
+                    </div>
+                </label>
+
+                <input type="radio" name="slider" id="s2" checked>
+                <label for="s2" class="card">
+                    <!--  <div class="row">
+                        <div class="icon">2</div>
+                    </div> -->
+                    <div class="card__texto">
+                        <a href="https://playragnarokonlinebr.com/episodios/doram/">
+                            <p class="texto">Benvenuti, bellissimi gattini! Simule agora a criação de um Doram e
+                                prepare-se
+                                para espalhar a personalidade radiante dessa nova raça.</p>
+                        </a>
+                    </div>
+                </label>
+
+                <input type="radio" name="slider" id="s3" checked>
+                <label for="s3" class="card">
+                    <!--  <div class="row">
+                        <div class="icon">1</div>
+                    </div> -->
+                    <div class="card__texto">
+                        <a href="#">
+                            <p class="texto">As vendas temporárias chegaram!</p>
+                        </a>
+                    </div>
+                </label>
+
+                <input type="radio" name="slider" id="s4" checked>
+                <label for="s4" class="card">
+                    <!--  <div class="row">
+                        <div class="icon">1</div>
+                    </div> -->
+                    <div class="card__texto">
+                        <a href="#">
+                            <p class="texto">ALGUÉM CHAMOU AS VALQUÍRIAS? É HORA DAQUELE UPGRADE</p>
+                        </a>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
 
 </body>
+
+
 
 </html>

@@ -1,17 +1,19 @@
 .landing {
     color: var(--texto);
-    background-image: url(../img/Desktop.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100svh;
-    width: 100%;
+    background: url(/img/fundo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: auto;
     overflow: auto;
+
 }
 
-
-
 /* Nav bar */
+
 .landing__nav {
     border: solid 1px transparent;
     border-radius: 36px;
@@ -35,7 +37,6 @@
     justify-content: space-between;
     padding: 0.3em 1em;
 
-
 }
 
 .lista__botao {
@@ -58,13 +59,13 @@
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: center;
+
 }
 
 .logo__rag {
     width: 45%;
     height: 45%;
     margin-left: 10%;
-    margin-top: 1em;
 }
 
 
@@ -73,7 +74,6 @@
     font-family: var(--fonte-titulo);
     text-align: center;
     margin-left: 10%;
-
     margin-bottom: 0.5em;
     text-shadow: 1px 2px 8px black;
 }
@@ -85,6 +85,7 @@
     margin-left: 15%;
     font-weight: 300;
     line-height: 1.8;
+    margin-bottom: 1em;
 }
 
 .download {
@@ -96,7 +97,7 @@
     font-size: 2em;
     border-radius: 80px;
     font-family: var(--fonte-texto);
-    margin-top: 0.5em;
+    /* margin-top: 0.5em; */
     margin-left: 10%;
     padding: 0.2em 1em;
     font-weight: 500;
@@ -109,7 +110,6 @@
 /* Redes sociais */
 
 .landing__corpo-redes {
-    margin-top: 25%;
     justify-content: bottom;
 
 }
@@ -121,6 +121,7 @@
     font-family: var(--fonte-titulo);
     font-size: 1.6em;
     margin-left: 92%;
+    margin-top: 25%;
 
 }
 
@@ -129,3 +130,6 @@
     padding-top: 0.5em;
     margin-left: 88%;
 }
+
+
+/* Noticias */
