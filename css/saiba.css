@@ -1,0 +1,100 @@
+.vetor {
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    display: block;
+    border: none;
+    line-height: 0;
+
+}
+
+.saiba__mais {
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: var(--cor-fundo-secundaria);
+
+}
+
+
+.saiba__titulo {
+    color: var(--texto);
+    font-family: var(--texto);
+    font-size: var(--size-titulo);
+    margin: 0 auto;
+}
+
+.saiba__imagens {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    margin-top: 3em;
+}
+
+.saiba__texto {
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    color: var(--botoes);
+    position: relative;
+    top: 80%;
+
+}
+
+.imagem1 {
+    background-image: url(../img/database.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    min-height: 300px;
+    border: solid 2px var(--dourado);
+    padding: 1em;
+    box-shadow: 0 5px var(--dourado);
+}
+
+.imagem2 {
+    background-image: url(../img/guias.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    min-height: 300px;
+    border: solid 2px var(--dourado);
+    padding: 1em;
+    box-shadow: 0 5px var(--dourado);
+}
+
+.imagem3 {
+    background-image: url(../img/episodios.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    min-height: 300px;
+    border: solid 2px var(--dourado);
+    padding: 1em;
+    box-shadow: 0 5px var(--dourado);
+}
+
+.imagem4 {
+    background-image: url(../img/gde.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    min-height: 300px;
+    border: solid 2px var(--dourado);
+    padding: 1em;
+    box-shadow: 0 5px var(--dourado);
+}
+
+.saiba__paragrafo {
+    border: solid 0 transparent;
+    border-radius: 36px;
+    background-color: rgba(255, 255, 255, 0.336);
+    backdrop-filter: blur(10px);
+    border-color: rgba(255, 255, 255, 0.466);
+    padding: 1em;
+
+}
+
+.saiba__paragrafo:hover {
+    transform: scale(1.05);
+}

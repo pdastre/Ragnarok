@@ -8,6 +8,7 @@
 /* Arquivos de estilo */
 @import url(/css/landing.css);
 @import url(/css/noticias.css);
+@import url(/css/saiba.css);
 
 * {
     margin: 0;
@@ -27,6 +28,7 @@
     --botoes: #005DEB;
     --gradiente: linear-gradient(190deg, rgba(0, 93, 235, 1) 0%, rgba(184, 243, 255, 1) 100%);
     --gradiente-home: linear-gradient(0deg, rgba(34, 41, 45, 1) 0%, rgba(158, 180, 196, 1) 100%);
+    --dourado: #FEBC13;
 
     --cor-fundo: white;
     --cor-fundo-secundaria: #8DD6FF;
@@ -41,6 +43,7 @@ body {
     overflow-wrap: break-word;
     margin: 0;
     padding: 0;
+    font-family: var(--fonte-texto);
 }
 
 body::-webkit-scrollbar {
